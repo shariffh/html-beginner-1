@@ -1,0 +1,44 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+	<title> forms</title>
+</head>
+<body>
+	<a href="myfirstpage.html">back to my firstpage</a>
+	<h2> forms</h2>
+	<form action="processingscript.php" method ="post">
+		<p> plain text <input type="text" ></p>
+		<p>password <input type ="password"></p>
+        <p>checkbox <input type = "checkbox"></p>
+        <p>radio <input type ="radio"></p>
+        <p>submit button <input type ="submit" ></p>
+
+        <p><textarea rows="5" cols="20">intial text</textarea></p>
+        <p><select>
+        	<option>option1</option>
+        	<option>option2</option>
+        	<option value ="third option">option3</option>
+        </select></p>
+    </form>
+
+    <h3>another form</h3>
+<form action="contactus.php" method="post">
+
+    <p>Name:</p>
+    <p><input type="text" name="name" value="Your name"></p>
+
+    <p>Comments: </p>
+    <p><textarea name="comments" rows="5" cols="20">Your comments</textarea></p>
+
+    <p>Are you:</p>
+    <p><input type="radio" name="areyou" value="male"> Male</p>
+    <p><input type="radio" name="areyou" value="female"> Female</p>
+    
+    <p><input type="submit"></p>
+
+</form>
+
+
+
+</body>
+</html>
